@@ -91,7 +91,10 @@ export default function AboutSection({ headingAs = 'h2' }: { headingAs?: 'h1' | 
                   </h3>
                 </div>
               </div>
-              <p className="mt-4 text-sm text-zinc-300">
+              <p className="mt-3 text-sm font-medium text-zinc-200">
+                {SITE_CONFIG.education.institution}
+              </p>
+              <p className="mt-1.5 text-sm text-zinc-400">
                 {SITE_CONFIG.education.focus}
               </p>
               <p className="mt-2 font-mono text-xs text-zinc-500">

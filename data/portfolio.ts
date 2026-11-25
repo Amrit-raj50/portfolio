@@ -94,11 +94,11 @@ export const SITE_CONFIG = {
   location: 'India',
   education: {
     degree: 'B.E. in Computer Engineering',
+    institution: 'Swaminarayan University, Kalol, Gandhinagar, Gujarat',
     focus: 'Full Stack Web, React Native Mobile & Open-Source Systems',
     period: '2025 – Present',
   },
-  resumeUrl:
-    'https://drive.google.com/file/d/1IVN6CZcOasiSYG-rgKCmz2GwSkBS0y_p/view',
+  resumeUrl: '/Amrit_Raj_Resume.pdf',
   profileImage: '/images/amrit.png',
   socials: [
     {
@@ -353,6 +353,7 @@ export const PROJECTS: ProjectItem[] = [
     ],
     tech: ['React', 'TypeScript', 'Tailwind', 'shadcn/ui', 'Supabase', 'Gemini AI', 'face-api.js', 'Capacitor'],
     github: 'https://github.com/Amrit-raj50/WCEHackathon2026_4-Bits',
+    live: 'https://sanjeevani-ochre.vercel.app/',
     secondaryRepo: {
       label: 'SU Hackathon Base',
       url: 'https://github.com/Amrit-raj50/Sanjeevani_Su_Startup',
